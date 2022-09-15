@@ -52,13 +52,13 @@ h6 {
 
 /* --------------- 4.1 Header ------------------------- */
 header {
-    background-color: #4845E4;
     background: linear-gradient(90deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 100%);
     color: #FFF;
     position: relative;
 }
 
 .navigation-list {
+
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -68,6 +68,12 @@ header {
 
 li {
     padding: 30px;
+}
+
+a {
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .introduction {
