@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <title>Basic Desktop</title>
+    <title> Rekupe Website</title>
 </head>
 <body>
 <header>
-    <nav >
+    <nav class="navigation-bar">
         <ul class="navigation-list">
-            <li><a href="#case-studies"> Case Studies</a></li>
-            <li><a href="#services"> Services</a></li>
-            <li><a href="#contact-us"> Contact Us</a></li>
+            <li><a href="#case-studies" class="jumplink-nav"> Case Studies</a></li>
+            <li><a href="#services" class="jumplink-nav"> Services</a></li>
+            <li><a href="#contact-us" class="jumplink-nav"> Contact Us</a></li>
         </ul>
     </nav>
 
     <div class="introduction">
         <h1 class="introduction-header">Your website is an investment in the success of your business.</h1>
         <p class="introduction-line">We are here to help you succeed.</p>
-        <button type="button"> Let's work together </button>
+        <button type="button" class="work-together-button"> Let's work together </button>
     </div>
         <img class= "introduction-image" src="assets/squiggle_line_stripe.svg" >
 
@@ -27,10 +27,12 @@
 
 <main>
     <section class="hello">
-        <div>
-            <h2>Rekupe is a digital agency in Los Angeles. We use strategic UX, SEO optimization and beautiful visual designs to help your business grow. We see every project as a fresh opportunity, pushing ourselves to create new digital experiences.</h2>
+        <div >
+            <h2 class="hello-title">Rekupe is a digital agency in Los Angeles.</h2>
+            <h2 class="hello-title">We use strategic UX, SEO optimization and beautiful visual designs to help your business grow.</h2>
+            <h2 class="hello-title">We see every project as a fresh opportunity, pushing ourselves to create new digital experiences.</h2>
         </div>
-        <p>Have a question? Click here to contact us!</p>
+        <p class="question-link">Have a question? <a href="#contact-us">Click here</a> to contact us!</p>
     </section>
 
     <section id="case-studies" class="work-part-one">
@@ -38,24 +40,29 @@
             <h3> Rolling Stone</h3>
             <img src="assets/squiggle_line.svg" alt="squiggle-line">
             <p>You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global icon.</p>
+            <a href="http://"> view project</a>
         </div>
-        <img src="assets/work-image-01.jpeg" alt="work-image-01">
+        <img src="assets/work-image-01.jpeg" alt="work-image-01" class="work-images">
     </section>
 
     <section class="work-part-two">
         <div>
             <h3>Variety</h3>
+            <img src="assets/squiggle_line.svg" alt="squiggle-line">
             <p>Variety is an industry leader for breaking entertainment news, reviews and box office results with archive of content dating back to 1905.</p>
+            <a href="http://"> view project</a>
         </div>
-        <img src="assets/work-image-02.jpeg" alt="work-image-02">
+        <img src="assets/work-image-02.jpeg" alt="work-image-02" class="work-images">
     </section>
 
     <section class="work-part-three">
         <div>
             <h3>Worth</h3>
+            <img src="assets/squiggle_line.svg" alt="squiggle-line">
             <p>A global media platform connecting a community that embraces worth beyond wealth.</p>
+            <a href="http://"> view project</a>
         </div>
-        <img src="assets/work-image-03.jpeg" alt="work-image-03"></section>
+        <img src="assets/work-image-03.jpeg" alt="work-image-03" class="work-images"></section>
 
     <section id="services" class="services">
 
