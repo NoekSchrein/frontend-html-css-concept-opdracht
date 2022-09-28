@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap')
+
+;/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusable
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        4.4 Services
+        4.5 Form
+        4.6 Footer
+    5. Media Queries
+////////////////////////*/
+
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+/* Paars #5722CD;
+Blauw #4845E4;
+Roze #ED4385;
+Zwart #0C0C0C (voor standaard tekst);
+Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") Uitzonderingen:
+Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
+Grijs #7A7A7A (voor de service-tegel tekst);*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', 'Times New Roman', serif;
+    font-style: normal;
+}
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------- 3.1 Reusable ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+header {
+    background: linear-gradient(90deg, rgba(72,69,228,1) 0%, rgba(87,34,205,1) 100%);
+    position: relative;
+}
+
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navigation-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 350px;
+    padding: 20px;
+}
+
+.jump-link-nav {
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.introduction {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 0 200px 100px 200px;
+}
+
+.introduction-header {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.introduction-line {
+    font-size: 35px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.introduction-image {
+    width: 100px;
+    height: 80px;
+    bottom: 0;
+    position: absolute;
+    left: calc(50% - 50px);
+    margin-top: 60px;
+}
+
+.work-together-button {
+    background-color: #ED4385;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* --------------- 4.2 Hello Column ------------------- */
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 200px 0 200px;
+    padding: 100px;
+}
+
+.hello-title {
+    font-size: 30px;
+    color: #5722CD;
+    margin: 25px;
+}
+
+.contact-us-link {
+    color: #5722CD;
+}
+
+.question-link {
+    font-size: 20px;
+    color: #0C0C0C;
+    margin: 100px 100px 20px 100px;
+}
+
+/* --------------- 4.3 Projects ------------------- */
+.work-part-one {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F6F9;
+}
+
+.work-part-two {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #F3F6F9;
+}
+
+.work-part-three {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F6F9;
+}
+
+.work-images {
+    width: 40%;
+    box-shadow: 0 8px 24px grey;
+}
+
+.work-sections {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.squiggle-line {
+    width: 100px;
+
+}
+
+/* --------------- 4.4 Services ------------ */
+.services {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-images {
+    height: 75px;
+}
+
+.services-block {
+
+}
+
+/* --------------- 4.5 Form ------------------- */
+.form-section {
+    background-color: #5722CD;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 0 200px 100px 200px;
+}
+
+.send-button {
+    background-color: #ED4385;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* --------------- 4.6 Footer ------------------- */
+.footer {
+    background-color: #0C0C0C;
+    font-size: 12px;
+    color: #FFFFFF;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
